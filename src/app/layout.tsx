@@ -7,6 +7,7 @@ import SmoothScroll from "@/components/ui/smooth-scroll";
 import ScrollToTop from "@/components/ui/scroll-to-top";
 import GridPattern from "@/components/ui/grid-pattern";
 import CustomCursor from "@/components/ui/custom-cursor";
+import ScrollIndicator from "@/components/ui/scroll-indicator";
 import { LanguageProvider } from "@/context/language-context";
 import {
   BASE_URL,
@@ -186,6 +187,7 @@ export default function RootLayout({
             <GridPattern />
             <CustomCursor />
             <ScrollToTop />
+            <ScrollIndicator />
             <SmoothScroll>{children}</SmoothScroll>
           </LanguageProvider>
         </ThemeProvider>

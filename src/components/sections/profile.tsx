@@ -63,7 +63,7 @@ const Profile = () => {
   }, [showProfileModal]);
 
   return (
-    <section className="px-4 py-3 sm:py-4">
+    <section id="profile" className="px-4 py-3 sm:py-4">
       <div className="flex items-center gap-4 sm:gap-6">
         {/* Profile Image - Enlarged & Interactive Lightbox Modal */}
         <div className="flex-shrink-0 relative group">
