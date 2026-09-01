@@ -12,13 +12,13 @@ import { useLanguage } from "@/context/language-context";
 // =============================================
 // CUSTOM HOOKS
 // =============================================
-const useISTTime = () => {
+const useMadagascarTime = () => {
   const [currentTime, setCurrentTime] = useState("");
 
   useEffect(() => {
     const updateTime = () => {
-      const timeString = new Date().toLocaleTimeString("en-IN", {
-        timeZone: "Asia/Kolkata",
+      const timeString = new Date().toLocaleTimeString("fr-FR", {
+        timeZone: "Indian/Antananarivo",
         hour12: false,
         hour: "2-digit",
         minute: "2-digit",
@@ -40,7 +40,7 @@ const useISTTime = () => {
 // =============================================
 const Profile = () => {
   const { lang } = useLanguage();
-  const currentTime = useISTTime();
+  const currentTime = useMadagascarTime();
   const [isHovering, setIsHovering] = useState<boolean>(false);
   const [showTooltip, setShowTooltip] = useState<boolean>(false);
   const [showProfileModal, setShowProfileModal] = useState<boolean>(false);
@@ -130,7 +130,7 @@ const Profile = () => {
             <FaLocationCrosshairs className="w-4 h-4 text-emerald-500" />
             <span className="font-mono">{ABOUT_ME.location[lang]}</span>
           </div>
-          <div className="font-mono">{currentTime} IST</div>
+          <div className="font-mono">{currentTime} EAT</div>
         </div>
       </div>
 
