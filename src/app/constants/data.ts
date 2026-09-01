@@ -157,8 +157,8 @@ export const EDUCATION = [
     institutionLink: "https://www.ituniversity-mg.com/page/",
     period: "2022 - 2025",
     score: {
-      en: "3.3 GPA",
-      fr: "Mention Assez-Bien",
+      en: "WEB & Design",
+      fr: "WEB & Design",
     },
   },
 ];
@@ -260,7 +260,7 @@ export const UI_TEXT = {
     impactHeader: { en: "project impact.", fr: "impact du projet." },
     challengeLabel: { en: "Challenge: ", fr: "Défi : " },
     solutionLabel: { en: "Solution: ", fr: "Solution : " },
-    scoreLabel: { en: "Score: ", fr: "Note : " },
+    scoreLabel: { en: "Option: ", fr: "Option : " },
     resumeLabel: { en: "Resume", fr: "CV" },
     phoneLabel: { en: "Phone", fr: "Téléphone" },
   },
