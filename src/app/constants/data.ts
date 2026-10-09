@@ -49,7 +49,7 @@ export const SOCIAL_LINKS = {
   github: `https://github.com/${USER_NAMES.githubUsername}`,
   linkedin: `https://linkedin.com/in/${USER_NAMES.linkedinUsername}`,
   phone: "tel:+261340900852",
-  resume: "/CV_Itokiana_.pdf",
+  resume: "/CV_Aro.pdf",
   email: `mailto:${ABOUT_ME.email}?subject=Message%20from%20Website&body=Hi!%20I%27m...`,
 };
 
